@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navber{
+    display: flex;
+    background-color: rgb(235, 235, 235);
+    height: 3rem;
+}
+.logo{
+    width: 30%;
+}
+.logo img{
+height: 2.5rem;
+width: 2.5rem;
+border-radius: 50%;
+margin-top: 0.3rem;
+}
+.list{
+    width: 70%;
+}
+.list li{
+    float: left;
+list-style-type: none;
+padding: 0.7rem 1rem;
+margin-right: 1rem;
+border-right: 1px solid  gainsboro;
+cursor: pointer;
+font-size: 18px;
+}
+.search{
+    margin-top: 0.4rem;
+    margin-right: 0.8rem;
+}
+.background-img{
+    background:  url(./background-img.jpg );
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 22rem;
+    text-align: center;
+
+}
+.background-img h1{
+   padding-top: 5rem;
+   padding-bottom: 0.6rem;
+   color: blue;
+}
+.background-img p{
+    padding-bottom: 0.6rem;
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+}
+.background-img button{
+    height: 1.8rem;
+    width: 8.2rem;
+    border: 1px solid rgb(2, 2, 2);
+    background-color: rgb(108, 231, 211);
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    cursor: pointer;
+}
+.background-img button:hover{
+    transition: all ease .7s;
+    transform: scale(1.1);
+}
+.hero{
+    display: flex;
+  background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 19rem;
+}
+.hero-img img{
+    height: 17rem;
+    width: 22rem;
+    border-radius: 2rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+.hero-massage h1{
+   padding-top: 3rem;
+   padding-left: 4rem;
+   padding-bottom: 0.5rem;
+   color: rgb(139, 7, 7);
+}
+.hero-massage p{
+    padding-left: 4rem;
+    padding-bottom: 2rem;
+  padding-right:4rem ;
+  font-weight: bold;
+  font-style: italic;
+}
+.hero-massage button{
+    margin-left: 4rem;
+    height: 1.7rem;
+    width: 8.4rem;
+    border: 1px solid rgb(2, 2, 2);
+    background-color: rgb(108, 231, 211);
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    cursor: pointer;
+}
+.hero-massage button:hover{
+    transition: all ease .7s;
+    transform: scale(1.1);
+}
+.cards{
+    padding-bottom: 3rem;
+ background: linear-gradient(to right, #d7d2cc, #304352); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 23rem;
+}
+.cards h1{
+    text-align: center;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+.card{
+    display: flex;
+}
+.card1 {
+    border: 1px solid white;
+    margin-right: 2rem;
+    height: 14.5rem;
+    width: 12rem;
+    text-align: center;
+    margin-left: 7rem;
+    background-color: white;
+    border-radius: 2rem;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px ;
+}
+.card1:hover{
+    transition: all ease .7s;
+    transform: scale(1.1);
+}
+.card1 h3{
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+}
+.card1 p{
+   
+    padding-bottom: 1rem;
+}
+.card1 img{
+    height: 5rem;
+   width: 5rem;
+   border-radius: 50%;
+   margin-top: 0.4rem;
+}
+.card1 button{
+    height: 1.6rem;
+    width: 8rem;
+    border: 1px solid black;
+    border-top-left-radius: 2.5rem ;
+    border-bottom-right-radius:  2.5rem;
+   background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: white;
+cursor: pointer;
+}
+
+.phone{
+    display: flex;
+    margin-bottom: 0.2rem;
+    margin-top: 0.5rem;
+   
+}
+
+.footer{
+    display: flex;
+    color: white;
+}
+
+.footer3{
+    display: flex;
+}
+
+
+
+.footers{
+    background-color: rgb(48, 105, 211);
+    height: 23rem;
+}
+
+.footer2{
+   padding-right: 3rem;
+    padding-left: 6rem;
+    padding-top: 2rem;
+}
+
+.footer2 img{
+    margin-top: 2rem;
+}
+.footer3 .footer1 p {
+    padding-left: 2rem;
+}
+.footers h5{
+    text-align: center;
+    margin-top: 2rem;
+    color: white;
+}
+.footer3 h3{
+    padding-top: 2rem;
+}
+.footer3 .footer2{
+    margin-top: 3rem;
+}
+
+
+
